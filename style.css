@@ -1,4 +1,4 @@
-:root{--ink:#1c2733;--muted:#5b6672;--accent:#2b4a7a;--bg:#d6d8d9;--soft:#f4f6f9;--line:#e1e5ea}
+:root{--ink:#1c2733;--muted:#5b6672;--accent:#2b4a7a;--bg:#cbcdcf;--soft:#f4f6f9;--line:#e1e5ea}
 *{box-sizing:border-box}
 body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);line-height:1.65}
 a{color:var(--accent)}
