@@ -1,8 +1,8 @@
-:root{--ink:#1c2733;--muted:#5b6672;--accent:#2b4a7a;--bg:#cbcdcf;--soft:#f4f6f9;--line:#e1e5ea}
+:root{--ink:#e8eaed;--muted:#aab2bc;--accent:#8fb3e0;--bg:#1f2329;--bar:#171a1f;--soft:#2a2f36;--line:#363c44}
 *{box-sizing:border-box}
 body{margin:0;font-family:Georgia,'Times New Roman',serif;color:var(--ink);background:var(--bg);line-height:1.65}
 a{color:var(--accent)}
-header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:5}
+header{position:sticky;top:0;background:var(--bar);border-bottom:1px solid var(--line);z-index:5}
 nav{max-width:880px;margin:0 auto;padding:14px 20px;display:flex;flex-wrap:wrap;gap:6px 22px;align-items:center;font-family:Helvetica,Arial,sans-serif;font-size:15px}
 nav .name{font-weight:700;margin-right:auto;color:var(--ink);text-decoration:none}
 nav a{text-decoration:none;color:var(--muted)}
@@ -22,6 +22,6 @@ h3{font-size:1.1rem;margin:26px 0 6px}
 .job{margin-bottom:22px}
 .meta{font-family:Helvetica,Arial,sans-serif;color:var(--muted);font-size:14px}
 .photo{width:100%;max-width:340px;border-radius:8px;margin:10px 0}
-.btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none;font-family:Helvetica,Arial,sans-serif}
+.btn{display:inline-block;background:var(--accent);color:#171a1f;padding:10px 18px;border-radius:6px;text-decoration:none;font-family:Helvetica,Arial,sans-serif}
 footer{text-align:center;color:var(--muted);font-family:Helvetica,Arial,sans-serif;font-size:13px;padding:24px;border-top:1px solid var(--line)}
 ul{padding-left:20px}
